@@ -1,5 +1,5 @@
 import { MatTableDataSource } from '@angular/material';
-import { MatTableFilter } from './../../../mat-table-extensions/projects/mat-table-filter/src/lib/mat-table-filter.enum';
+import { MatTableFilter } from 'mat-table-filter';
 import { Component, OnInit } from '@angular/core';
 
 export class Captain {
