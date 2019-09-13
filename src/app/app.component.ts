@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
   filterEntity: SpaceCraft;
   filterType: MatTableFilter;
   displayedColumns: string[] = ['name', 'captainName', 'captainSurname', 'isConstitutionClass'];
-  dataSource = new MatTableDataSource(SPACECRAFT_DATA);
+dataSource;
   constructor() { }
 
   ngOnInit() {
@@ -38,5 +38,6 @@ export class AppComponent implements OnInit {
     this.filterEntity = new SpaceCraft();
     this.filterEntity.captain = new Captain();
     this.filterType = MatTableFilter.ANYWHERE;
+    this.dataSource = new MatTableDataSource(SPACECRAFT_DATA);
   }
 }

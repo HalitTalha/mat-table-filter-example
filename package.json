@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~8.2.4",
     "@angular/router": "~8.2.4",
     "core-js": "^2.5.4",
-    "mat-table-filter": "0.0.5",
+    "mat-table-filter": "^1.2.1",
     "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
